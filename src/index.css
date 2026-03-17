@@ -1,0 +1,11 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-brand-navy: #163D52;
+  
+  /* Complementary colors for a trading UI */
+  --color-fx-green: #22c55e;
+  --color-fx-red: #ef4444;
+  --color-fx-gold: #fbbf24;
+}
