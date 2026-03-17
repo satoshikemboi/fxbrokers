@@ -87,7 +87,7 @@ function BrokerCard({ broker }) {
 
 function Trusted() {
   return (
-    <section className="bg-gray-50 min-h-screen px-6 py-12 md:px-64">
+    <section className="bg-gray-50 px-6 py-12 md:px-64">
       <div className="mb-8">
         <h2 className="text-4xl font-bold text-gray-900 mb-2">
           Trusted broker partners
