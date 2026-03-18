@@ -7,8 +7,8 @@ const categories = [
   { label: 'Best Copy Trading Brokers' },
   { label: 'Best Low Spread Brokers' },
   { label: 'Best MetaTrader Brokers' },
-  { label: 'IG Review' },
-  { label: 'CMC Markets Review' },
+  { label: 'Exness Review' },
+  { label: 'JustMarkets Review' },
 ];
 
 function Home() {

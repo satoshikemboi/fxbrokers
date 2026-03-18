@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Trusted from './components/Trusted';
 import Brokers from './pages/Brokers';
+import Reviews from './pages/Reveiws';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           </>
         } />
         <Route path="/brokers" element={<Brokers />} />
+        <Route path="/reviews" element={<Reviews />} />
       </Routes>
     </>
   );

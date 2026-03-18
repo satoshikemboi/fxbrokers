@@ -66,6 +66,40 @@ const brokerData = [
     primary: false,
     highlights: ["Comprehensive educational resources", "Daily market analysis and webinars", "Wide range of research tools"]
   },
+
+  {
+    id: 5,
+    name: 'HFM',
+    logo: '/hfm.png',
+    score: '4.0',
+    tagline: 'Redefine your trading experience with HFM by your side.',
+    minDeposit: '$5',
+    trustScore: 98,
+    tradeableSymbols: 500,
+    promo: 'Join 3 million+ traders worldwide.',
+    riskWarning: '79% of retail CFD accounts lose money.',
+    url: 'https://register.hfm.com/ke/en/new-live-account/?refid=30515020',
+    buttonText: 'Visit Site',
+    primary: false,
+    highlights: ["Regulated by multiple authorities", "Competitive spreads and fast execution", "User-friendly platforms for all levels"]
+  },
+
+  {
+    id: 6,
+    name: 'FxPro',
+    logo: '/fxpro.png',
+    score: '4.5',
+    tagline: 'A broker you can trust',
+    minDeposit: '$100',
+    trustScore: 98,
+    tradeableSymbols: 2500,
+    promo: 'Trusted by over 1 million traders globally.',
+    riskWarning: '74% of retail CFD accounts lose money.',
+    url:'https://direct-fxpro.com/en/partner/2xPncqjwh',
+    buttonText: 'Visit Site',
+    primary: false,
+    highlights: ["Regulated by top-tier authorities", "Wide range of trading instruments", "Award-winning customer support"]
+  }
 ];
 
 const Brokers = () => {

@@ -7,7 +7,7 @@ const brokers = [
     logo: '/exness.png',
     rating: 5,
     disclaimer: 'Born To Trade.',
-    url: 'https://www.exnesspromo.com/en/trade-gold/?partner_id=1sh0vxrgqd',
+    url: 'https://one.exnessonelink.com/a/1sh0vxrgqd',
     starColor: '#F59E0B', // yellow
   },
   {
@@ -16,7 +16,7 @@ const brokers = [
     logo: '/justmarkets.png',
     rating: 5,
     disclaimer: 'Trade With a Global Trusted Broker',
-    url: 'https://one.justmarkets.link/a/17thm0lpq8/landing/global-trusted-broker',
+    url: 'https://one.justmarkets.link/a/17thm0lpq8',
     starColor: '#2563A8', // blue
   },
   {
@@ -24,10 +24,40 @@ const brokers = [
     name: 'FBS',
     logo: '/fbs.png',
     rating: 4.5,
-    disclaimer: 'Skip The Market Noise With FBS',
+    disclaimer: 'Focus on trading. FBS handles the rest.',
     url: 'https://fbs.partners?ibl=876040&ibp=35444511',
     starColor: '#16A34A', // green
   },
+
+  {
+    id: 4,
+    name: 'HFM',
+    logo: '/hfm.png',
+    rating: 4,
+    disclaimer: 'Redefine your trading experience with HFM by your side.',
+    url: 'https://register.hfm.com/ke/en/new-live-account/?refid=30515020',
+    starColor: '#DC2626', // red
+  },
+
+  {
+    id: 5,
+    name: 'XM',
+    logo: '/xm.png',
+    rating: 4.5,
+    disclaimer: 'Best for Forex Education and Research',
+    url: 'https://clicks.pipaffiliates.com/c?c=1190147&l=en&p=1',
+    starColor: '#000000', // black
+  },
+
+  {
+    id: 6,
+    name: 'FxPro',
+    logo: 'fxpro.png',
+    rating: 4.5,
+    disclaimer: 'A broker you can trust',
+    url:'https://direct-fxpro.com/en/partner/2xPncqjwh',
+    starColor: '#ffa500' , //orange
+  }
 ];
 
 function StarRating({ rating, color }) {
@@ -77,7 +107,7 @@ function BrokerCard({ broker }) {
         <a href={broker.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-full mt-auto border border-gray-300 rounded-lg py-3 text-center text-blue-700 font-semibold hover:bg-blue-50 transition text-sm"
+        className="w-full mt-auto border border-gray-300 rounded-lg py-3 text-center text-blue-700 font-bold hover:bg-blue-50 transition text-sm"
       >
         Register Now
       </a>
